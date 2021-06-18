@@ -79,6 +79,7 @@ class _FurnitureState extends State<Furniture>
       child: TabBar(
         labelStyle: TextStyle(color: Colors.white30),
         labelColor: Colors.lightGreen,
+        controller: tabController,
         unselectedLabelColor: Colors.black,
         tabs: [
           Tab(
@@ -102,7 +103,6 @@ class _FurnitureState extends State<Furniture>
             icon: Icon(Icons.people),
           ),
         ],
-        controller: tabController,
       ),
     );
   }
